@@ -13,6 +13,7 @@
 		BE22E76D20E2DBE400471599 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE22E76C20E2DBE400471599 /* Assets.xcassets */; };
 		BE22E77020E2DBE400471599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE22E76E20E2DBE400471599 /* LaunchScreen.storyboard */; };
 		BE22E77320E2DBE400471599 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE22E77220E2DBE400471599 /* main.m */; };
+		BE22E78120E2F9B100471599 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE22E78020E2F9B100471599 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BE22E76F20E2DBE400471599 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE22E77120E2DBE400471599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE22E77220E2DBE400471599 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BE22E77F20E2F9B100471599 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		BE22E78020E2F9B100471599 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BE22E76220E2DBE300471599 /* Tipster */ = {
 			isa = PBXGroup;
 			children = (
+				BE22E77F20E2F9B100471599 /* SettingsViewController.h */,
+				BE22E78020E2F9B100471599 /* SettingsViewController.m */,
 				BE22E76320E2DBE300471599 /* AppDelegate.h */,
 				BE22E76420E2DBE300471599 /* AppDelegate.m */,
 				BE22E76620E2DBE300471599 /* ViewController.h */,
@@ -144,6 +149,7 @@
 				BE22E76820E2DBE300471599 /* ViewController.m in Sources */,
 				BE22E77320E2DBE400471599 /* main.m in Sources */,
 				BE22E76520E2DBE300471599 /* AppDelegate.m in Sources */,
+				BE22E78120E2F9B100471599 /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
